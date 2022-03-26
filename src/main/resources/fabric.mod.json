@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "treesplus",
+  "version": "${version}",
+  "name": "Trees+",
+  "description": "its just the plus of the trees",
+  "authors": [
+    "Woodenlalaloo"
+  ],
+  "contact": {
+    "website": "nope",
+    "repo": "nope"
+  },
+  "license": "MIT",
+  "icon": "assets/treesplus/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "woodenlalaloo.treesplus.client.TreesplusClient"
+    ],
+    "main": [
+      "woodenlalaloo.treesplus.Treesplus"
+    ]
+  },
+  "mixins": [
+    "treesplus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
